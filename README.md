@@ -20,7 +20,7 @@ This codebase also provides a general pipeline for training and evaluation on AV
 
 ## Requirements
 Some key dependencies are listed below, while others are given in [`requirements.txt`](https://github.com/Siyu-C/ACAR-Net/blob/master/requirements.txt).
-- Python >= 3.6
+- Python 3.10 (required for the pinned PyTorch wheel)
 - PyTorch >= 1.3, and a corresponding version of torchvision
 - ffmpeg (used in data preparation)
 - Download pre-trained models, which are listed in [`pretrained/README.md`](https://github.com/Siyu-C/ACAR-Net/blob/master/pretrained/README.md), to the `pretrained` folder.
